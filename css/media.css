@@ -1,0 +1,149 @@
+@media (max-width: 767px) {
+    .page-header {
+        padding-top: 20px;
+    }
+
+    .header-form {
+        margin-bottom: 118px;
+    }
+
+    .share-suptitle {
+        padding: 0 50px;
+    }
+
+    .people-item {
+        padding: 0 60px;
+    }
+
+    .people-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 748px;
+    }
+
+    .page-header {
+        margin-bottom: 148px;
+        height: 74px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .share {
+        margin-bottom: 75px;
+    }
+
+    .share-title {
+        font-size: 52px;
+        margin-bottom: 44px;
+    }
+
+    .share-suptitle {
+        font-size: 24px;
+        margin-bottom: 36px;
+    }
+
+    .people-title {
+        margin-bottom: 35px;
+    }
+
+    .people-list {
+        margin-bottom: 36px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .people-item {
+        flex: 0 0 236px;
+    }
+
+    .people-item:nth-child(1) {
+        order: 1;
+    }
+
+    .people-item:nth-child(2) {
+        order: 3;
+    }
+
+    .people-item:nth-child(3) {
+        order: 2;
+    }
+
+    .people-item:nth-child(4) {
+        order: 4;
+    }
+
+    .people-box-img::before {
+        left: 142px;
+    }
+
+    .button-meet {
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 939px) {
+    .page-header {
+        padding: 0 50px;
+    }
+
+    .share-title {
+        padding: 0 100px;
+    }
+
+    .button-find {
+        margin-bottom: 234px;
+    }
+
+    .people-list {
+        padding: 0 128px;
+    }
+
+    .people-item:not(:nth-child(2n)) {
+        margin-bottom: 58px;
+    }
+
+    .people-about {
+        padding: 0 8px;
+    }
+}
+
+@media (min-width: 940px) {
+    .container {
+        width: 940px;
+    }
+
+    .share {
+        margin-bottom: 73px;
+    }
+
+    .share-title {
+        padding: 0 200px;
+    }
+
+    .button-find {
+        margin-bottom: 234px;
+    }
+
+    .people-title {
+        margin-bottom: 36px;
+    }
+
+    .people-item {
+        flex: 0 0 220px;
+    }
+
+    .people-box-img::before {
+        left: 134px;
+    }
+
+    .button-meet {
+        margin-bottom: 73px;
+    }
+}
